@@ -1,0 +1,63 @@
+
+
+/* comportamento normal desktop */
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.cabecalho{
+background-color: green;
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+.conteudo{
+    color: black;
+background-color: aqua;
+padding: 20px;
+
+}
+
+/* breackpoins para smartphones etc */
+@media  screen and (max-width:600px){
+    .cabecalho {
+        background-color: black;
+        height: 200px;
+    }
+.conteudo{
+    margin: 10px;
+}
+    
+}
+
+/* breackpoins para 1024 etc */
+@media screen and (min-width:601px) and (max-width:1024px){
+    
+    .cabecalho {
+        background-color: blue;
+        height: 100px;
+    }
+.conteudo{
+    
+    margin: 0px;
+    padding: 50px;
+}
+    
+}
+
+/* breackpoins para 1025 etc */
+@media screen and (min-width:1024px) and (max-width:1200px){
+    
+    .cabecalho {
+        background-color: orange;
+        height: 100px;
+    }
+.conteudo{
+    color: yellow;
+    margin: 0px;
+    padding: 50px;
+}
+    
+}

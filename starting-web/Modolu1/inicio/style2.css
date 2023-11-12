@@ -1,0 +1,42 @@
+.tbmnsei{
+background-color: aqua;
+}
+
+h2{
+    background-color: aqua;
+}
+#seila, #roblox{
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    background-color: blue;
+color: white;
+}
+td{ color: rgb(45, 74, 138) ;
+background-color:chocolate;}
+img{
+    width: 30%;
+    float: left;
+}
+table{  
+    width: 20%;
+float: left;
+}
+table caption{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.ps5{
+    font-size: 40px;
+}
+
+#div1{
+    width: 60%;
+    float: right;
+    background-color: darkseagreen;
+}
+#div2{
+    width: 40%;
+    float: right;
+    background-color: greenyellow;
+}

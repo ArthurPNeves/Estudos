@@ -1,0 +1,41 @@
+{
+  "C_Cpp_Runner.cCompilerPath": "C:/mingw64/bin/gcc.exe",
+  "C_Cpp_Runner.cppCompilerPath": "C:/mingw64/bin/g++.exe",
+  "C_Cpp_Runner.debuggerPath": "C:/Users/arthu/OneDrive/Documentos/MinGW/bin/gdb.exe",
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.includePaths": [
+    "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+    "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"
+  ],
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+  ],
+  "files.associations": {
+    "math.h": "c",
+    "io.h": "c",
+    "io.hpp": "c"
+  },
+  "C_Cpp_Runner.useMsvc": false,
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false
+}

@@ -1,0 +1,48 @@
+section{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    width: calc(180% - 100%);
+    position: relative;
+}
+
+div{
+    border: 1px solid #777;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.d1{
+    background-color: aqua;
+}
+
+.d1a{
+    background-color: yellow;
+    overflow: auto;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+}
+.d1b{
+    background-color: yellowgreen;
+z-index: -1;
+    height: 70px;
+}
+
+
+.d2{
+    background-color: violet;
+}
+
+.d3{
+    background-color: blueviolet;
+    position: absolute;
+    top:0px
+}
+
+.d4{
+    background-color: brown;
+}

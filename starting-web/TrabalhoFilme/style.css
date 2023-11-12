@@ -1,0 +1,194 @@
+.header img {
+    width: 50%;
+}
+
+.carousel1 {
+    background-color: #d3edff;
+}
+
+.footer {
+    background-color: #d3edff;
+}
+
+.footer img {
+    width: 7%;
+    margin-left: 60%;
+}
+
+.carousel-item iframe {
+    width: 100%;
+
+}
+
+.Avaliacoes {
+    margin-top: 3%;
+}
+
+.carousel1 {
+    padding: 4%;
+}
+
+.carousel1 h2 {
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+.cards img {
+    height: 420px;
+    width: 280px;
+
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+
+.imgavaliacao img {
+    border-radius: 100%;
+    width: 80%;
+}
+
+.entrevista iframe {
+    width: 100%;
+}
+
+.redessociais i {
+    margin-right: 5%;
+}
+
+.noticia img {
+    width: 20%;
+    padding-bottom: 0%;
+}
+
+
+
+
+.noticias {
+    padding-top: 2%;
+
+}
+
+.noticia {
+    margin-bottom: 1%;
+}
+
+.noticias .label {
+    padding-bottom: 0%;
+}
+
+
+.entrevista iframe {
+    width: 100%;
+    height: 80%;
+}
+
+.entrevista {
+    padding-bottom: 5%;
+
+    margin-top: 2%;
+    background-color: #d3edff;
+
+}
+
+.butaofilmes {
+    margin-left: 85%;
+    width: auto;
+    margin-top: 3%;
+}
+
+.butaoemdestaque {
+    margin-left: 85%;
+    margin-bottom: 3%;
+}
+
+.butaoavaliacoes {
+    margin-left: 83%;
+    margin-bottom: 3%;
+}
+
+.butaodropdown {
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.navbar-toggler {
+    margin-left: 83%;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .entrevista {
+        padding-bottom: 27%;
+
+        margin-top: 2%;
+        background-color: #d3edff;
+
+    }
+
+    .header img {
+        width: 150%;
+    }
+
+    .butaodropdown {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .butaofilmes {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .butaoemdestaque {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .butaoavaliacoes {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .cards img {
+        margin-top: 5%;
+        margin-bottom: 0%;
+        width: 90%;
+    }
+
+    .imgavaliacao {
+        width: 50%;
+    }
+
+    .noticia img {
+        width: 50%;
+        padding-bottom: 10%;
+    }
+
+    .footer p {
+        margin: 0%;
+    }
+
+    .footer img {
+        width: 15%;
+        margin-left: 80%;
+    }
+
+    iv.container section#section-pesquisa {
+        padding: 80px 10px 5px;
+        overflow: hidden;
+      }
+      
+      section#section-pesquisa img {
+        height: auto;
+        min-width: 100%;
+      }
+}

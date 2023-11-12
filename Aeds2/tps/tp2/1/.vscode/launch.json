@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch gamesteste",
+      "request": "launch",
+      "mainClass": "gamesteste",
+      "projectName": "1_3aa150"
+    },
+    {
+      "type": "java",
+      "name": "Launch teste2",
+      "request": "launch",
+      "mainClass": "teste2",
+      "projectName": "1_3aa150"
+    },
+    {
+      "type": "java",
+      "name": "Launch game",
+      "request": "launch",
+      "mainClass": "game",
+      "projectName": "1_3aa150"
+    },
+    {
+      "type": "java",
+      "name": "Launch teste",
+      "request": "launch",
+      "mainClass": "teste",
+      "projectName": "1_3aa150"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/arthu/OneDrive/Documentos/Puc2periodo/Aeds2/tp2/1",
+      "program": "c:/Users/arthu/OneDrive/Documentos/Puc2periodo/Aeds2/tp2/1/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

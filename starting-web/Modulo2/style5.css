@@ -1,0 +1,172 @@
+
+.header{
+    background-image: url(imgs/onepiece12.jpg);
+    background-size: 70%;
+    background-position: 1880px -240px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.menu1{
+    position: absolute;
+    top: 40px;
+    left: 18%;
+
+}
+.menu1 a{ color: white;}
+
+.logo{
+    max-width: 150px;
+}
+
+.banner{
+    max-width: 100%;
+    margin: 0px;
+}
+
+.texto_principal{ background-color: lightsteelblue; padding: 20px; margin-top: 20px; margin-bottom: 20px;}
+
+.texto_principal h1{ color: rgb(143, 18, 18);}
+
+.texto_principal p{ text-align: justify;}
+
+.noticias img{
+    max-width: 100%;
+    min-height: 200px;
+}
+
+
+.menu2 a{
+    color: white;
+}
+.info{
+    margin-top: 20px;
+    
+}
+
+.info h1{
+    font-size: 1.4em;
+}
+
+.cor1{
+    background-color: lightsteelblue;
+    padding: 20px;
+    min-height: 260px;
+}
+
+.cor1 img{
+    width: 100%;
+}
+
+.footer{
+    background-image: url(imgs/onepiece14.png);
+    background-size: 50%;
+    background-position: 1000px -110px;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+#menuToggle{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:600px) {
+    .header{
+        background-size: 90%;
+        background-position: 120px -100px;
+        
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:980px) {
+    .header{
+        background-size: 70%;
+        background-position: 1700px -150px;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .header{
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        max-width: 100% !important;
+        
+    }
+        .container_nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+       }
+    .main{
+        margin-top: 140px;
+    }
+       .menu1 {
+           display: flex;
+           position: fixed;
+           flex-wrap: wrap;
+           align-content: center;
+           left: 320px;
+           top: 0px;
+           
+           height: 0%;
+           background-color: rgba(0,0,0,0.7);
+           overflow: hidden;
+           transition: height 0.3s;
+       }
+       .menu1 a{
+           display: block;
+           text-align: center;
+           width: 100%;
+           margin-bottom: 20px;
+       }
+    
+       .menu-icon{
+           display: block;
+           color: white;
+           width: 50px;
+           position: absolute;
+           height: inherit;
+           top: 55px;
+           right: 30px;
+           line-height: 60px;
+           z-index: 999;
+       }
+    
+       .menu-icon i{
+           font-size: 1.7em;
+       }
+       #menuToggle:checked ~ label i:nth-child(2){
+           display: block;
+       }
+       #menuToggle:checked ~ label i:first-child{
+        display: none;
+    }
+    #menuToggle:not(:checked) ~ label i:nth-child(2){
+        display: none;
+    }
+    
+    #menuToggle:not(:checked) ~ label i:first-child{
+        display: block;
+    }
+    
+    #menuToggle:checked ~ nav{
+        height: 100%;
+    }
+
+}

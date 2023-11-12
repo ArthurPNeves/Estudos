@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch TP01Q04AlteracaoAleatoriaemJava",
+      "request": "launch",
+      "mainClass": "TP01Q04AlteracaoAleatoriaemJava",
+      "projectName": "TP01Q04 - Alteração Aleatória em Java_22e1fb03"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "c:/Users/arthu/OneDrive/Documentos/Puc2periodo/Aeds2/aeds2-master/tps/entrada e saida/tp01/TP01Q04 - Alteração Aleatória em Java",
+      "program": "c:/Users/arthu/OneDrive/Documentos/Puc2periodo/Aeds2/aeds2-master/tps/entrada e saida/tp01/TP01Q04 - Alteração Aleatória em Java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
